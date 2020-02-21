@@ -1,2 +1,2 @@
 # IVIS_proj2
-This is project 2 in IVIS
+Project web: https://anorangesky.github.io/IVIS_proj2/
