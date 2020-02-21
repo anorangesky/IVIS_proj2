@@ -27,7 +27,7 @@
 <div id ="app">
     <ul>
         <li v-for="product in products">
-            <input type="number" v-model.number="product.quantity">
+            <input type="number" v-model.number=.quantity>
             {{product.quantity}}{{product.name}} 
             <span v-if="product.quantity === 0">
                 - OUT OF STOCK
@@ -37,8 +37,9 @@
             </button>
         </li>
     </ul>
-    <h2>Total Inventory: {{ totalProducts}}</h2>
+    <h2>Total Inventory: {{totalProducts}}</h2>
 </div>
+<script src = "https://unpkn.com/vue"></script>
 
 <script src = "js/basic.js"></script>
 <script src = "js/testVue.js"></script>  

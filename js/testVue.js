@@ -20,3 +20,22 @@ const app = new Vue({
         })
     }
 })
+
+/* 
+<!-- testVue code for index.html -->
+<div id ="app">
+    <ul>
+        <li v-for="product in products">
+            <input type="number" v-model.number=.quantity>
+            {{product.quantity}}{{product.name}} 
+            <span v-if="product.quantity === 0">
+                - OUT OF STOCK
+            </span>
+            <button @click="product.quantity +=1"> 
+                Add One
+            </button>
+        </li>
+    </ul>
+    <h2>Total Inventory: {{totalProducts}}</h2>
+</div>
+*/
