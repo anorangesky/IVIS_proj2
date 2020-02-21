@@ -3,7 +3,10 @@
 
 <head>
 <meta charset="utf-8">
+<!-- Tab titel -->
 <title>Agnes project 2</title>
+<!-- Load Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
@@ -19,7 +22,26 @@
         fill="#69b3a2" stroke-width="1"/>
   </svg>
 </div>
+
+<!-- testing vue elements -->
+<div id ="app">
+    <ul>
+        <li v-for="product in products">
+            <input type="number" v-model.number="product.quantity">
+            {{product.quantity}}{{product.name}} 
+            <span v-if="product.quantity === 0">
+                - OUT OF STOCK
+            </span>
+            <button @click="product.quantity +=1"> 
+                Add One
+            </button>
+        </li>
+    </ul>
+    <h2>Total Inventory: {{ totalProducts}}</h2>
+</div>
+
 <script src = "js/basic.js"></script>
+<script src = "js/testVue.js"></script>  
 
 </body>
 </html>
