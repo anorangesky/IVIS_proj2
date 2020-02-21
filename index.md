@@ -1,16 +1,1 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
-
-<!-- Create a div with just a rect in svg -->
-<div>
-  <svg width="960px" height="400px">
-      <rect
-        id="my_rect" x="10" y="200"
-        width="200" height="30" stroke="black"
-        fill="#69b3a2" stroke-width="1"/>
-  </svg>
-</div>
-
+hej hej 
