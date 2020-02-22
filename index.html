@@ -48,7 +48,7 @@
       background-color: #4CAF50;
       color: white;
     }
-    </style>
+    </style> 
 </head>
 
 <body>
@@ -56,7 +56,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
     <div style="padding:16px">
         <h2>Confidence in organizations</h2>
-        <p>Visualization on how much confidence countries have in different organisations</p>
+        <p>Visualization of countries' confidence in organisations</p>
     </div>    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -84,7 +84,13 @@
                  <rect id="ridgeline" x="10" y="200"
                  width="200" height="30" stroke="black"
                  fill="#69b3a2" stroke-width="1"/>
-                </svg>
+                 <div id="yearButton">
+                    <input type="radio" name="yearButton" value="2"> 1990-1994<br>
+                    <input type="radio" name="yearButton" value="3"> 1995-1998<br>
+                    <input type="radio" name="yearButton" value="4"> 1999-2004<br>
+                    <input type="radio" name="yearButton" value="5"> 2005-2009<br>
+                    <input type="radio" name="yearButton" value="6"checked> 2010-2014<br>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6">
                 <h1>Work process</h1>
