@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 60, right: 30, bottom: 20, left:110},
     width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    height = 350 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#ridgeline")
@@ -23,19 +23,20 @@ var svg = d3.select("#ridgeline")
     - "Organization" takes a random organization out of 8 possible 
     - "Value" is how much confidence in the organisation. "1": Great deal; "2": Quite a lot; "3": not very much; "4": not at all
 */
-d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myData.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myData.csv", 
+        function(myData) {
 
-  // Get the different categories and count them
-  var categ = data.columns
-  var n = categ.length
+  // Get the different countries and count them
+  var countries = d3.map(myData, function(d){return(d.Country)}).keys()
+  var n = countries.length
 
   // Add X axis
   var x = d3.scaleLinear()
-    .domain([-10, 140])
+    .domain([1, 4])
     .range([ 0, width ]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x));
+    .call(d3.axisBottom(x).scale(x).ticks(4));
 
   // Create a Y scale for densities
   var y = d3.scaleLinear()
@@ -44,18 +45,29 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
 
   // Create the Y axis for names
   var yName = d3.scaleBand()
-    .domain(categ)
+    .domain(countries)
     .range([0, height])
     .paddingInner(1)
   svg.append("g")
     .call(d3.axisLeft(yName));
 
+  //Function that change year
+  function changeYear(){
+    var yearSelected = $("input[name='yearButton']:active");
+    console.log(yearSelected)
+    //TODO: make this code change the visible data:
+    //svg
+    //.d3.map(myData, function(d){return(d.Wave)}).keys() 
+  }
+  //Event listener to the Year-buttons
+  d3.select("#yearButton").on("change", changeYear)
+
   // Compute kernel density estimation for each column:
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40)) // increase this 40 for more accurate density.
   var allDensity = []
   for (i = 0; i < n; i++) {
-      key = categ[i]
-      density = kde( data.map(function(d){  return d[key]; }) )
+      key = countries[i]
+      density = kde( myData.map(function(d){  return d[key]; }) )
       allDensity.push({key: key, density: density})
   }
 
