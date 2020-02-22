@@ -1,2 +1,4 @@
 100 ord om vad jag lärt mig
 BÖRJA I TID. 
+
+Using mocked data bc. did not have time to clean the real data in time. 

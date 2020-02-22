@@ -1,0 +1,1001 @@
+Wave,Country,Organization,Value
+2,France,Environmental org.,3
+2,Peru,The police,2
+2,Germany,The armed force,1
+2,Nigeria,The UN,1
+2,Italy,The press,4
+2,United Kingdom,The press,4
+2,Belgium,Parliaments,4
+2,Poland,Women's org.,4
+2,New Zealand,The press,1
+2,Peru,Women's org.,3
+3,Spain,The press,4
+3,Poland,The armed force,2
+3,Poland,Environmental org.,3
+3,New Zealand,Environmental org.,4
+3,Netherlands,Universities,1
+3,Mexico,The police,4
+3,United Kingdom,Parliaments,4
+3,South Korea,The police,4
+3,Nigeria,The police,3
+3,Costa Rica,Parliaments,4
+4,Spain,The armed force,4
+4,Nigeria,The armed force,1
+4,France,Universities,4
+4,Mexico,The press,3
+4,Germany,Women's org.,3
+4,Austria,Universities,4
+4,Poland,The police,4
+4,India,The press,2
+4,Mexico,Parliaments,4
+4,India,The armed force,3
+5,Netherlands,The press,1
+5,Netherlands,Environmental org.,3
+5,Ireland,The police,3
+5,Nigeria,Universities,1
+5,United States,The UN,1
+5,Germany,Environmental org.,1
+5,Russian Federation,The UN,2
+5,Peru,The armed force,2
+5,South Korea,Women's org.,4
+5,Mexico,Parliaments,2
+6,Canada,Women's org.,4
+6,Netherlands,The UN,4
+6,Australia,The armed force,2
+6,United Kingdom,Environmental org.,2
+6,Pakistan,The press,1
+6,Spain,Universities,4
+6,Colombia,The police,3
+6,Netherlands,The police,3
+6,Sweden,The UN,3
+6,Italy,Environmental org.,4
+2,United Kingdom,The press,4
+2,Italy,The police,2
+2,Austria,Women's org.,3
+2,Nigeria,The police,2
+2,Colombia,Universities,2
+2,South Korea,The police,3
+2,France,The UN,1
+2,Indonesia,Women's org.,3
+2,New Zealand,The police,1
+2,Peru,The UN,1
+3,Canada,Universities,3
+3,Colombia,The press,4
+3,Spain,Universities,2
+3,France,The police,3
+3,Poland,The armed force,4
+3,Brazil,Universities,4
+3,Turkey,Universities,1
+3,New Zealand,The press,1
+3,New Zealand,The police,4
+3,Sweden,Universities,1
+4,United Kingdom,The press,4
+4,Costa Rica,The UN,3
+4,Peru,Universities,2
+4,South Korea,Universities,3
+4,Russian Federation,The police,1
+4,Belgium,Environmental org.,2
+4,Indonesia,The UN,3
+4,Spain,The armed force,1
+4,Australia,The UN,4
+4,Netherlands,The police,3
+5,Mexico,The armed force,3
+5,Pakistan,Parliaments,4
+5,Russian Federation,Environmental org.,3
+5,India,The press,4
+5,Italy,Environmental org.,1
+5,Sweden,The police,4
+5,France,Universities,3
+5,Australia,The armed force,2
+5,United States,The press,1
+5,Brazil,Parliaments,2
+6,Peru,Parliaments,1
+6,Mexico,The armed force,3
+6,Costa Rica,Parliaments,3
+6,Canada,The armed force,4
+6,Pakistan,The press,2
+6,Russian Federation,The armed force,1
+6,Austria,Parliaments,1
+6,Pakistan,The police,3
+6,Netherlands,Parliaments,2
+6,Netherlands,Universities,1
+2,Canada,Parliaments,1
+2,United States,Universities,1
+2,Peru,Environmental org.,4
+2,Ireland,Women's org.,4
+2,Brazil,The armed force,1
+2,Australia,The police,3
+2,Germany,Universities,4
+2,Pakistan,The UN,2
+2,Chile,The UN,3
+2,Spain,The police,3
+3,Mexico,The press,2
+3,United States,Women's org.,2
+3,Poland,The UN,1
+3,Italy,The UN,3
+3,Mexico,The press,3
+3,Turkey,Environmental org.,1
+3,Sweden,The UN,3
+3,Turkey,Universities,2
+3,Russian Federation,Universities,2
+3,Nigeria,The police,1
+4,Italy,The armed force,3
+4,United States,The armed force,4
+4,United States,The UN,2
+4,India,The press,1
+4,South Korea,The press,2
+4,Chile,Parliaments,1
+4,Nigeria,The armed force,4
+4,India,The armed force,2
+4,Turkey,Parliaments,4
+4,France,The armed force,2
+5,Canada,Environmental org.,1
+5,Chile,Women's org.,4
+5,Canada,The press,4
+5,Mexico,The press,1
+5,Spain,The police,4
+5,Nigeria,Parliaments,1
+5,Germany,Women's org.,4
+5,Indonesia,Universities,4
+5,Mexico,The armed force,4
+5,Costa Rica,The police,4
+6,Spain,Universities,4
+6,Peru,Parliaments,4
+6,Peru,Environmental org.,3
+6,Chile,The press,4
+6,Austria,Universities,4
+6,Peru,The armed force,3
+6,Russian Federation,The press,1
+6,France,Parliaments,4
+6,Australia,The press,2
+6,Austria,The armed force,2
+2,Chile,The press,2
+2,Sweden,The press,3
+2,United States,Parliaments,3
+2,Spain,The police,4
+2,Netherlands,Women's org.,2
+2,Ireland,The armed force,3
+2,Mexico,The armed force,3
+2,Poland,The UN,2
+2,Canada,The police,4
+2,Mexico,Parliaments,1
+3,Austria,Parliaments,4
+3,Costa Rica,Parliaments,4
+3,Poland,Parliaments,4
+3,Peru,Environmental org.,1
+3,Spain,The armed force,2
+3,Colombia,The press,4
+3,Austria,Universities,4
+3,France,Parliaments,2
+3,Nigeria,Universities,3
+3,Nigeria,Parliaments,1
+4,United Kingdom,Universities,1
+4,Colombia,The police,2
+4,Peru,Environmental org.,4
+4,Sweden,Women's org.,1
+4,France,The armed force,1
+4,South Korea,Environmental org.,4
+4,Italy,Women's org.,2
+4,Belgium,The armed force,1
+4,Russian Federation,The police,2
+4,United Kingdom,Universities,3
+5,Australia,Universities,1
+5,Peru,The UN,3
+5,Turkey,Parliaments,3
+5,Indonesia,The UN,3
+5,Pakistan,The police,4
+5,Pakistan,Parliaments,3
+5,Spain,The armed force,1
+5,Belgium,Women's org.,3
+5,Chile,Environmental org.,2
+5,New Zealand,The armed force,1
+6,Mexico,Environmental org.,1
+6,United Kingdom,The UN,2
+6,Pakistan,Environmental org.,2
+6,Italy,The press,3
+6,France,The armed force,2
+6,United Kingdom,Women's org.,1
+6,United Kingdom,Universities,4
+6,South Korea,Women's org.,3
+6,United States,Environmental org.,3
+6,Austria,Women's org.,3
+2,South Korea,The armed force,4
+2,Belgium,Parliaments,4
+2,Australia,Environmental org.,2
+2,Brazil,The UN,1
+2,India,Universities,4
+2,Mexico,The press,4
+2,France,Environmental org.,1
+2,India,The police,3
+2,Sweden,Universities,3
+2,Australia,Universities,4
+3,Pakistan,The press,4
+3,Brazil,The armed force,1
+3,Russian Federation,The police,1
+3,Mexico,Universities,1
+3,Ireland,Women's org.,1
+3,Indonesia,Parliaments,3
+3,Chile,The police,4
+3,India,The armed force,2
+3,Australia,Universities,3
+3,Australia,Women's org.,1
+4,Sweden,Women's org.,1
+4,Brazil,Universities,3
+4,United States,The armed force,2
+4,India,Environmental org.,2
+4,Italy,Universities,1
+4,Russian Federation,Parliaments,3
+4,Austria,The police,1
+4,Pakistan,The press,4
+4,Turkey,Universities,4
+4,Turkey,Universities,4
+5,France,Women's org.,4
+5,Poland,The press,1
+5,Poland,Parliaments,2
+5,Belgium,The armed force,1
+5,Mexico,Environmental org.,3
+5,Colombia,The armed force,4
+5,Peru,Parliaments,4
+5,Turkey,Women's org.,1
+5,Indonesia,The armed force,4
+5,New Zealand,The police,4
+6,United Kingdom,The armed force,3
+6,Costa Rica,Environmental org.,3
+6,India,The press,3
+6,Germany,Women's org.,1
+6,Austria,Women's org.,1
+6,Spain,The armed force,2
+6,Brazil,Women's org.,4
+6,Pakistan,The armed force,1
+6,Russian Federation,The UN,4
+6,India,The UN,3
+2,Nigeria,Universities,2
+2,New Zealand,Women's org.,3
+2,Russian Federation,The UN,3
+2,New Zealand,The UN,3
+2,Italy,Environmental org.,4
+2,Austria,The UN,4
+2,Netherlands,Universities,1
+2,Costa Rica,Parliaments,4
+2,Belgium,Environmental org.,2
+2,France,The police,1
+3,India,Universities,1
+3,Brazil,Environmental org.,1
+3,Costa Rica,Parliaments,1
+3,Belgium,Universities,4
+3,Canada,Women's org.,3
+3,Sweden,Universities,1
+3,Poland,The UN,1
+3,Colombia,The police,4
+3,Austria,Environmental org.,2
+3,South Korea,The police,3
+4,United States,Environmental org.,1
+4,United Kingdom,The press,4
+4,Peru,Parliaments,4
+4,France,The press,2
+4,Netherlands,Women's org.,3
+4,Indonesia,The UN,1
+4,New Zealand,Environmental org.,1
+4,Costa Rica,Environmental org.,2
+4,France,The UN,1
+4,Peru,The armed force,1
+5,Turkey,The UN,3
+5,Poland,Parliaments,2
+5,South Korea,Women's org.,4
+5,Turkey,The UN,1
+5,Belgium,The UN,3
+5,Nigeria,The press,1
+5,France,Environmental org.,4
+5,Pakistan,The press,2
+5,United Kingdom,The UN,3
+5,Italy,The police,3
+6,Peru,Environmental org.,4
+6,Poland,Universities,1
+6,Pakistan,Universities,3
+6,Mexico,Women's org.,2
+6,Sweden,Parliaments,2
+6,Costa Rica,The police,4
+6,Austria,The armed force,2
+6,France,Universities,1
+6,South Korea,The UN,3
+6,Indonesia,Women's org.,1
+2,South Korea,The police,3
+2,Indonesia,The press,3
+2,New Zealand,The press,1
+2,Russian Federation,Universities,1
+2,Belgium,Women's org.,2
+2,Ireland,The press,1
+2,Belgium,Parliaments,3
+2,Mexico,The police,2
+2,New Zealand,The press,4
+2,Brazil,Environmental org.,2
+3,France,Parliaments,1
+3,United States,The police,1
+3,Spain,Environmental org.,4
+3,Austria,The press,2
+3,Colombia,The police,3
+3,Turkey,The UN,3
+3,Sweden,The UN,1
+3,India,Women's org.,1
+3,Germany,Universities,3
+3,Ireland,The UN,2
+4,Sweden,Women's org.,3
+4,Sweden,The armed force,4
+4,Pakistan,The press,1
+4,Australia,The press,2
+4,Indonesia,Environmental org.,2
+4,Australia,The police,1
+4,Turkey,Parliaments,1
+4,Belgium,The police,2
+4,New Zealand,The press,4
+4,Germany,The armed force,1
+5,Brazil,Environmental org.,2
+5,United Kingdom,The police,2
+5,Nigeria,The police,2
+5,Colombia,The police,2
+5,New Zealand,Universities,4
+5,United States,Environmental org.,3
+5,Ireland,Environmental org.,3
+5,Sweden,Environmental org.,1
+5,New Zealand,Parliaments,1
+5,Mexico,The police,1
+6,Germany,Universities,1
+6,Canada,Universities,4
+6,Colombia,Universities,2
+6,Pakistan,The armed force,4
+6,Pakistan,The press,4
+6,Ireland,The armed force,3
+6,Peru,Environmental org.,1
+6,Chile,The armed force,4
+6,France,Environmental org.,3
+6,Austria,Universities,4
+2,Nigeria,Women's org.,2
+2,Brazil,Universities,4
+2,Belgium,Universities,2
+2,Spain,Women's org.,1
+2,Italy,The press,3
+2,Germany,Environmental org.,4
+2,Australia,The armed force,3
+2,Peru,The press,4
+2,Turkey,Environmental org.,4
+2,Belgium,Environmental org.,1
+3,Nigeria,Women's org.,2
+3,Chile,Parliaments,4
+3,Russian Federation,The armed force,3
+3,Germany,The armed force,1
+3,Chile,The UN,4
+3,Costa Rica,The police,2
+3,Turkey,The UN,3
+3,India,Parliaments,1
+3,Mexico,The UN,4
+3,United States,The armed force,4
+4,Peru,Women's org.,4
+4,Nigeria,Universities,2
+4,Poland,The press,3
+4,United Kingdom,Women's org.,4
+4,France,Universities,1
+4,Germany,The armed force,3
+4,Spain,The press,4
+4,Canada,Parliaments,3
+4,New Zealand,Parliaments,1
+4,Germany,The UN,4
+5,New Zealand,Parliaments,4
+5,Mexico,The armed force,2
+5,South Korea,The press,4
+5,Russian Federation,Parliaments,4
+5,France,The armed force,2
+5,Mexico,The UN,1
+5,India,The police,2
+5,New Zealand,The press,1
+5,Costa Rica,Universities,2
+5,Brazil,Environmental org.,2
+6,South Korea,Women's org.,2
+6,Belgium,Women's org.,3
+6,Sweden,The press,2
+6,Colombia,The police,3
+6,Spain,Universities,4
+6,South Korea,Parliaments,4
+6,Germany,Universities,4
+6,India,Universities,4
+6,South Korea,Universities,2
+6,Brazil,The police,3
+2,Brazil,The police,1
+2,South Korea,Parliaments,3
+2,Pakistan,Parliaments,3
+2,South Korea,The UN,1
+2,Russian Federation,The UN,2
+2,United Kingdom,Parliaments,3
+2,Peru,Women's org.,3
+2,Costa Rica,The press,4
+2,Germany,The police,2
+2,Germany,The UN,4
+3,Italy,The armed force,2
+3,Canada,The UN,3
+3,Spain,Parliaments,2
+3,Canada,Women's org.,4
+3,Mexico,Environmental org.,2
+3,Sweden,The armed force,1
+3,Germany,Environmental org.,1
+3,Brazil,The police,4
+3,Belgium,The press,4
+3,Brazil,Environmental org.,3
+4,United States,The UN,3
+4,France,Parliaments,2
+4,Sweden,The police,3
+4,South Korea,Women's org.,4
+4,Australia,The armed force,1
+4,Indonesia,The police,2
+4,Indonesia,Environmental org.,2
+4,Canada,The press,4
+4,Italy,The armed force,4
+4,Germany,Universities,2
+5,Turkey,Universities,1
+5,United States,The press,1
+5,Germany,Parliaments,1
+5,Australia,Parliaments,1
+5,Italy,The press,3
+5,Peru,The armed force,3
+5,Russian Federation,Environmental org.,2
+5,Ireland,The press,4
+5,Belgium,Parliaments,1
+5,Austria,The police,4
+6,Australia,The UN,3
+6,Austria,The press,4
+6,Mexico,Parliaments,3
+6,Russian Federation,The police,1
+6,Netherlands,The armed force,4
+6,India,Universities,2
+6,Sweden,The armed force,1
+6,Austria,The armed force,1
+6,Ireland,Women's org.,3
+6,Peru,The police,2
+2,Sweden,Parliaments,2
+2,Costa Rica,Universities,4
+2,Austria,The UN,3
+2,India,Women's org.,3
+2,Indonesia,The press,4
+2,Colombia,Environmental org.,3
+2,Mexico,The police,1
+2,Sweden,Parliaments,3
+2,Pakistan,The police,3
+2,Mexico,The police,1
+3,United States,Environmental org.,2
+3,Austria,The armed force,1
+3,New Zealand,Women's org.,2
+3,Austria,Universities,2
+3,Costa Rica,Universities,1
+3,United States,The armed force,1
+3,Australia,The police,1
+3,South Korea,Parliaments,4
+3,Chile,Environmental org.,4
+3,Pakistan,The UN,3
+4,Netherlands,The press,4
+4,Italy,The armed force,3
+4,Costa Rica,The UN,2
+4,New Zealand,Women's org.,2
+4,Colombia,Women's org.,2
+4,New Zealand,Parliaments,4
+4,Spain,The armed force,4
+4,United States,Parliaments,4
+4,South Korea,The UN,2
+4,Pakistan,Universities,1
+5,France,The UN,3
+5,Russian Federation,Women's org.,3
+5,Austria,Women's org.,1
+5,Indonesia,Women's org.,4
+5,Turkey,Universities,2
+5,New Zealand,Universities,4
+5,Sweden,The UN,2
+5,New Zealand,The press,1
+5,Colombia,The UN,2
+5,Chile,Women's org.,4
+6,Pakistan,Universities,1
+6,Indonesia,The press,4
+6,Germany,The armed force,4
+6,Spain,Parliaments,1
+6,Germany,Universities,4
+6,Brazil,Parliaments,4
+6,Canada,Women's org.,1
+6,India,Women's org.,2
+6,Indonesia,The UN,1
+6,Australia,The armed force,1
+2,Brazil,The police,2
+2,South Korea,The press,2
+2,Russian Federation,Parliaments,3
+2,Austria,The armed force,3
+2,Ireland,Women's org.,4
+2,Ireland,Women's org.,1
+2,Italy,The press,4
+2,France,Universities,3
+2,France,The UN,4
+2,Colombia,Environmental org.,4
+3,India,Universities,1
+3,Chile,The UN,1
+3,Belgium,Environmental org.,3
+3,Russian Federation,The UN,4
+3,United States,The police,3
+3,Pakistan,Environmental org.,4
+3,Colombia,Women's org.,3
+3,Russian Federation,Environmental org.,1
+3,Pakistan,The armed force,1
+3,Netherlands,The UN,4
+4,Belgium,The press,4
+4,India,Universities,4
+4,Canada,The UN,4
+4,Turkey,Women's org.,1
+4,Australia,The UN,2
+4,Netherlands,The press,3
+4,Belgium,Women's org.,3
+4,Poland,Parliaments,1
+4,South Korea,Universities,2
+4,Ireland,Women's org.,1
+5,Colombia,The press,3
+5,Spain,Environmental org.,2
+5,Canada,The UN,4
+5,Sweden,The UN,4
+5,India,Environmental org.,3
+5,United Kingdom,Parliaments,4
+5,South Korea,The press,2
+5,Sweden,The armed force,3
+5,Australia,Parliaments,4
+5,Canada,The armed force,2
+6,South Korea,The armed force,2
+6,Italy,Environmental org.,4
+6,Belgium,The press,3
+6,France,The police,1
+6,Indonesia,The armed force,4
+6,France,The armed force,1
+6,Poland,The armed force,4
+6,India,The police,2
+6,Russian Federation,Parliaments,2
+6,Canada,Universities,3
+2,Brazil,Parliaments,4
+2,Belgium,The armed force,2
+2,France,The press,1
+2,Australia,Parliaments,4
+2,Sweden,The press,1
+2,Turkey,The press,1
+2,Nigeria,Women's org.,3
+2,Austria,The UN,4
+2,India,Parliaments,3
+2,Austria,Environmental org.,2
+3,New Zealand,Environmental org.,4
+3,Australia,Environmental org.,3
+3,Poland,The armed force,3
+3,Australia,Women's org.,4
+3,Australia,The police,4
+3,Netherlands,The UN,3
+3,Colombia,Environmental org.,4
+3,Peru,Universities,4
+3,Ireland,Women's org.,2
+3,Turkey,Environmental org.,4
+4,France,The press,4
+4,Australia,Women's org.,1
+4,Spain,Women's org.,2
+4,Australia,Parliaments,2
+4,Peru,The armed force,4
+4,United Kingdom,The press,4
+4,Poland,The armed force,2
+4,New Zealand,Environmental org.,2
+4,Canada,The police,4
+4,Colombia,The UN,1
+5,South Korea,The police,3
+5,Austria,Universities,2
+5,Netherlands,The press,4
+5,France,The police,2
+5,France,Women's org.,3
+5,Poland,Universities,1
+5,Indonesia,Parliaments,1
+5,Peru,The armed force,1
+5,Indonesia,Parliaments,1
+5,Ireland,Women's org.,3
+6,Ireland,Universities,1
+6,Pakistan,Universities,3
+6,Netherlands,The press,3
+6,Chile,The press,1
+6,Australia,The police,3
+6,Nigeria,Universities,4
+6,Australia,Women's org.,4
+6,Ireland,Parliaments,4
+6,Poland,The police,2
+6,Germany,The press,1
+2,Chile,Universities,3
+2,Austria,The armed force,3
+2,Poland,Environmental org.,1
+2,Belgium,Universities,3
+2,Poland,The police,1
+2,Peru,The police,3
+2,Italy,Environmental org.,2
+2,Pakistan,The armed force,2
+2,New Zealand,The police,4
+2,Mexico,Universities,2
+3,France,Environmental org.,4
+3,Russian Federation,The press,1
+3,Brazil,Women's org.,2
+3,Costa Rica,The armed force,3
+3,Peru,The press,4
+3,Pakistan,The UN,2
+3,New Zealand,Parliaments,4
+3,Russian Federation,Women's org.,2
+3,Australia,The UN,3
+3,Costa Rica,Universities,1
+4,United States,The police,4
+4,Australia,The UN,2
+4,Costa Rica,Universities,2
+4,Ireland,Universities,4
+4,Italy,Universities,3
+4,United States,Parliaments,2
+4,Mexico,Women's org.,3
+4,Germany,The press,2
+4,Australia,Parliaments,2
+4,United Kingdom,The press,2
+5,Costa Rica,Women's org.,4
+5,Italy,The police,4
+5,Ireland,Universities,4
+5,Germany,The UN,1
+5,Belgium,The armed force,3
+5,Pakistan,Parliaments,1
+5,Ireland,The armed force,2
+5,Sweden,The armed force,2
+5,Germany,Universities,2
+5,United Kingdom,The UN,4
+6,Peru,Environmental org.,3
+6,Brazil,Women's org.,2
+6,Australia,Universities,2
+6,Peru,Women's org.,1
+6,Austria,Universities,4
+6,Mexico,The UN,1
+6,Indonesia,Parliaments,2
+6,Russian Federation,The UN,3
+6,France,Universities,1
+6,Sweden,Parliaments,2
+2,France,Universities,3
+2,Belgium,Women's org.,3
+2,Netherlands,The police,4
+2,Netherlands,Women's org.,1
+2,New Zealand,The UN,1
+2,Poland,The armed force,2
+2,Mexico,Environmental org.,2
+2,United Kingdom,The UN,4
+2,Colombia,Women's org.,3
+2,India,The UN,2
+3,Indonesia,Environmental org.,4
+3,Mexico,The armed force,1
+3,Russian Federation,The police,3
+3,Netherlands,The UN,4
+3,France,The press,2
+3,Germany,Parliaments,2
+3,Spain,The press,1
+3,Mexico,Women's org.,1
+3,Austria,The press,2
+3,France,Women's org.,3
+4,Poland,The police,1
+4,Turkey,The UN,3
+4,Indonesia,The police,2
+4,Turkey,Parliaments,4
+4,Australia,Environmental org.,1
+4,Costa Rica,The armed force,3
+4,Indonesia,The police,2
+4,India,Parliaments,1
+4,Brazil,The UN,1
+4,Netherlands,The police,1
+5,Peru,Parliaments,2
+5,Belgium,Environmental org.,3
+5,Sweden,Women's org.,1
+5,United States,The UN,2
+5,New Zealand,The UN,3
+5,United States,The police,3
+5,Russian Federation,Universities,2
+5,South Korea,The press,1
+5,Mexico,Women's org.,3
+5,Turkey,Women's org.,1
+6,Turkey,Universities,4
+6,Austria,Environmental org.,2
+6,Poland,The police,2
+6,United States,Parliaments,3
+6,Brazil,Environmental org.,2
+6,Mexico,Environmental org.,4
+6,Spain,Parliaments,2
+6,Australia,The press,1
+6,Russian Federation,The armed force,2
+6,Russian Federation,The press,2
+2,Canada,The police,1
+2,France,The police,1
+2,France,Women's org.,3
+2,Russian Federation,The UN,4
+2,New Zealand,Universities,1
+2,United States,Parliaments,2
+2,Ireland,Universities,2
+2,Sweden,The press,2
+2,France,The police,1
+2,Canada,The press,2
+3,Mexico,Parliaments,2
+3,Canada,Environmental org.,2
+3,United Kingdom,The press,4
+3,Netherlands,The police,3
+3,France,Environmental org.,1
+3,Russian Federation,Parliaments,3
+3,France,Environmental org.,4
+3,Pakistan,Parliaments,2
+3,Canada,The police,3
+3,South Korea,Universities,4
+4,Indonesia,The police,3
+4,Colombia,The press,1
+4,South Korea,Universities,3
+4,Chile,Environmental org.,2
+4,Indonesia,Universities,4
+4,Spain,Parliaments,4
+4,Canada,The press,3
+4,Chile,The police,2
+4,New Zealand,Women's org.,2
+4,Australia,The UN,1
+5,France,Women's org.,4
+5,France,The police,1
+5,Mexico,The press,2
+5,Russian Federation,The press,3
+5,United States,The press,3
+5,Sweden,The UN,3
+5,Spain,Universities,2
+5,Netherlands,Parliaments,3
+5,Netherlands,The press,2
+5,Indonesia,The press,2
+6,United States,Environmental org.,1
+6,Pakistan,Universities,2
+6,Australia,Women's org.,2
+6,United States,Universities,1
+6,Peru,Universities,2
+6,South Korea,The UN,3
+6,Germany,Parliaments,1
+6,Sweden,The police,4
+6,Sweden,The press,1
+6,Russian Federation,The UN,4
+2,Indonesia,Environmental org.,2
+2,Peru,Universities,2
+2,Spain,Parliaments,1
+2,Peru,The press,4
+2,Brazil,Universities,1
+2,Austria,The armed force,4
+2,Nigeria,The UN,2
+2,Netherlands,Parliaments,1
+2,Germany,Parliaments,4
+2,Indonesia,The UN,3
+3,United States,The police,2
+3,Italy,Women's org.,4
+3,Chile,The press,1
+3,Pakistan,The police,1
+3,Sweden,The press,3
+3,United States,Environmental org.,3
+3,South Korea,Environmental org.,1
+3,Spain,The armed force,1
+3,Peru,The armed force,2
+3,Turkey,Universities,1
+4,South Korea,The armed force,3
+4,United States,Women's org.,2
+4,Spain,Universities,2
+4,Spain,Parliaments,4
+4,Spain,Parliaments,4
+4,Nigeria,Environmental org.,2
+4,Sweden,Universities,3
+4,Colombia,Women's org.,3
+4,United States,The armed force,4
+4,Brazil,Women's org.,4
+5,Italy,The UN,1
+5,Spain,The armed force,2
+5,United Kingdom,The UN,4
+5,Costa Rica,The armed force,1
+5,Colombia,Universities,2
+5,New Zealand,Universities,2
+5,France,The armed force,2
+5,Belgium,The press,1
+5,Costa Rica,Universities,2
+5,Sweden,Women's org.,4
+6,Austria,The press,3
+6,United States,Environmental org.,2
+6,Poland,Parliaments,2
+6,Turkey,The UN,2
+6,Canada,Parliaments,3
+6,Pakistan,Universities,4
+6,Peru,Universities,1
+6,France,Women's org.,3
+6,Chile,Universities,3
+6,Sweden,The police,2
+2,United States,The UN,4
+2,France,Universities,2
+2,Germany,Environmental org.,3
+2,Poland,Parliaments,3
+2,Colombia,The press,1
+2,Belgium,Women's org.,3
+2,France,Women's org.,3
+2,Nigeria,Women's org.,2
+2,Russian Federation,Environmental org.,1
+2,Canada,Environmental org.,4
+3,Austria,Universities,3
+3,Colombia,Women's org.,4
+3,South Korea,Universities,1
+3,Italy,Parliaments,3
+3,Turkey,Women's org.,4
+3,Russian Federation,Universities,4
+3,United Kingdom,Universities,4
+3,Chile,Parliaments,3
+3,Chile,The armed force,2
+3,Belgium,The UN,3
+4,New Zealand,The armed force,4
+4,Spain,Parliaments,3
+4,France,The armed force,1
+4,Nigeria,The police,2
+4,Australia,Women's org.,3
+4,Netherlands,The UN,2
+4,Poland,Environmental org.,2
+4,Pakistan,The press,4
+4,Nigeria,Environmental org.,1
+4,South Korea,Women's org.,2
+5,New Zealand,The armed force,2
+5,Indonesia,Women's org.,1
+5,Peru,The UN,2
+5,Pakistan,The press,4
+5,Canada,The police,1
+5,Germany,The UN,3
+5,Brazil,The press,4
+5,United Kingdom,The press,4
+5,Spain,The armed force,2
+5,Colombia,Universities,4
+6,Brazil,Women's org.,4
+6,Ireland,The press,1
+6,Russian Federation,Universities,2
+6,Belgium,Environmental org.,1
+6,New Zealand,The UN,3
+6,Austria,The press,4
+6,Pakistan,The UN,4
+6,Canada,Parliaments,1
+6,Austria,The police,3
+6,Pakistan,Environmental org.,3
+2,Austria,The armed force,1
+2,Canada,Environmental org.,4
+2,Italy,Universities,3
+2,India,The UN,4
+2,Austria,Women's org.,1
+2,South Korea,Universities,4
+2,Pakistan,The police,3
+2,Belgium,The armed force,4
+2,Mexico,The armed force,3
+2,Ireland,Parliaments,3
+3,Turkey,The police,2
+3,United Kingdom,Universities,1
+3,Ireland,The UN,1
+3,Ireland,Universities,3
+3,Australia,Parliaments,2
+3,Chile,The armed force,4
+3,Pakistan,Parliaments,3
+3,Indonesia,The armed force,3
+3,Germany,The UN,1
+3,Poland,The UN,1
+4,Brazil,The armed force,3
+4,Brazil,The police,2
+4,Turkey,The press,1
+4,Turkey,The police,1
+4,United States,Parliaments,4
+4,United States,Parliaments,1
+4,Brazil,Universities,1
+4,South Korea,Women's org.,1
+4,Brazil,Parliaments,2
+4,Canada,The police,4
+5,Spain,Environmental org.,2
+5,United Kingdom,Women's org.,2
+5,Pakistan,The police,1
+5,United States,The police,3
+5,Nigeria,The police,1
+5,Mexico,The press,3
+5,Italy,Environmental org.,1
+5,India,The UN,3
+5,Chile,Women's org.,1
+5,Austria,The police,3
+6,New Zealand,Environmental org.,4
+6,Ireland,Universities,4
+6,New Zealand,The police,2
+6,Colombia,The UN,2
+6,Australia,Women's org.,4
+6,Austria,The UN,1
+6,Ireland,The police,4
+6,New Zealand,The UN,4
+6,Netherlands,The armed force,2
+6,Nigeria,Women's org.,4
+2,Ireland,Environmental org.,3
+2,Russian Federation,Parliaments,4
+2,Ireland,Parliaments,1
+2,Costa Rica,The police,2
+2,Austria,Parliaments,2
+2,Sweden,Women's org.,2
+2,Mexico,The press,4
+2,Chile,The press,1
+2,Turkey,The armed force,4
+2,United States,Universities,1
+3,Mexico,The UN,3
+3,Indonesia,The press,2
+3,Belgium,The police,4
+3,Spain,Women's org.,2
+3,Italy,The UN,1
+3,Spain,The UN,3
+3,Indonesia,The police,1
+3,Colombia,Environmental org.,2
+3,India,Parliaments,1
+3,Germany,The police,4
+4,Belgium,The UN,4
+4,Nigeria,Universities,4
+4,Australia,The armed force,1
+4,Nigeria,Universities,4
+4,Germany,Universities,3
+4,Indonesia,The police,2
+4,Spain,Parliaments,1
+4,United States,The press,1
+4,Belgium,Environmental org.,4
+4,Turkey,The press,1
+5,Italy,The press,1
+5,Mexico,The UN,4
+5,Italy,The press,1
+5,Sweden,Environmental org.,4
+5,Spain,The police,4
+5,Germany,The press,1
+5,Indonesia,The armed force,2
+5,Italy,Women's org.,2
+5,Indonesia,The armed force,2
+5,Pakistan,The press,3
+6,Russian Federation,The armed force,4
+6,New Zealand,The armed force,1
+6,Belgium,Universities,2
+6,Belgium,Parliaments,3
+6,South Korea,Parliaments,4
+6,Brazil,The police,4
+6,Pakistan,The UN,4
+6,Nigeria,The press,4
+6,France,Environmental org.,3
+6,Poland,The armed force,3
+2,Costa Rica,The UN,3
+2,Netherlands,Parliaments,1
+2,Netherlands,Women's org.,2
+2,New Zealand,Universities,4
+2,Belgium,The UN,4
+2,Nigeria,Women's org.,1
+2,Nigeria,Women's org.,3
+2,France,The press,3
+2,Australia,Environmental org.,1
+2,Chile,Environmental org.,1
+3,Ireland,Environmental org.,3
+3,South Korea,The police,4
+3,Pakistan,The UN,2
+3,Netherlands,The UN,3
+3,India,The UN,1
+3,India,Universities,3
+3,Poland,Environmental org.,4
+3,Mexico,Women's org.,2
+3,Turkey,The press,3
+3,France,Parliaments,3
+4,Ireland,The press,1
+4,Chile,Environmental org.,3
+4,Indonesia,The UN,2
+4,Nigeria,Universities,1
+4,Russian Federation,The press,2
+4,Italy,The press,4
+4,Canada,The police,3
+4,Australia,Environmental org.,2
+4,Netherlands,The police,3
+4,Mexico,Universities,1
+5,United States,Universities,4
+5,Sweden,Universities,3
+5,Chile,Parliaments,2
+5,Austria,Parliaments,2
+5,France,The armed force,3
+5,Canada,Women's org.,4
+5,Indonesia,Parliaments,3
+5,Colombia,The police,3
+5,Sweden,Women's org.,2
+5,Russian Federation,Women's org.,1
+6,Nigeria,The UN,2
+6,Pakistan,Women's org.,2
+6,United States,Universities,3
+6,Spain,Women's org.,1
+6,Austria,The armed force,1
+6,Pakistan,The armed force,2
+6,Costa Rica,Environmental org.,1
+6,Belgium,Universities,3
+6,Turkey,Environmental org.,1
+6,Russian Federation,Environmental org.,2
