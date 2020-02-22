@@ -50,21 +50,25 @@
     }
     </style> 
 </head>
+<cite><small>This may be the ugliest webpage I have ever developed. But it is also the first one I have ever developed. Bear with me.</small></cite>   
 
 <body>
 <!-- Navigation on the site -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
     <div style="padding:16px">
         <h2>Confidence in organizations</h2>
-        <p>Visualization of countries' confidence in organisations</p>
-    </div>    
+        <p>Visualization of countries' confidence in organisations. </p>
+    </div> 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Work process</a>
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="myWorkProcess.txt">Work process</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="myLearnings.txt">Learnings</a>
@@ -79,12 +83,22 @@
 <!-- Create page content with graph to the left -->
 <div id="page-content">
     <div class="container">
-        <div class="row">
+        <div class="row"> 
             <div class="col-sm-12 col-md-6">
                  <rect id="ridgeline" x="10" y="200"
                  width="200" height="30" stroke="black"
                  fill="#69b3a2" stroke-width="1"/>
-                 <div id="yearButton">
+            </div>
+            <div class="col-sm-3 col-md-2">
+                <p>Level of confidence:</p>
+                <cite>1: Great deal
+                <br>2: Quite a lot
+                <br>3: Not very much
+                <br>4: Not at all</cite>
+            </div>
+            <div class="col-sm-3 col-md-2">
+                <p>Year wave:</p>
+                <div id="yearButton">
                     <input type="radio" name="yearButton" value="2"> 1990-1994<br>
                     <input type="radio" name="yearButton" value="3"> 1995-1998<br>
                     <input type="radio" name="yearButton" value="4"> 1999-2004<br>
@@ -92,15 +106,15 @@
                     <input type="radio" name="yearButton" value="6"checked> 2010-2014<br>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <h1>Work process</h1>
-                <p> 200 words about the work process for the redgeline plot.</p>
-           </div>
+            <div class="col-sm-3 col-md-2">
+                <p>Organization:</p>
+                <select id="selectButton"></select>
+                <svg id="selectOrg"></svg>
+            </div> 
         </div>
     </div>
 </div>
 
-<script src="js/basic.js"></script>
 <script src="js/ridgeline.js"></script>
 
 </body>
