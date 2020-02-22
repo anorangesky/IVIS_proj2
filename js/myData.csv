@@ -47,7 +47,7 @@ Wave,Country,Organization,Value
 6,Spain,Universities,4
 6,Colombia,The police,3
 6,Netherlands,The police,3
-6,Sweden,The UN,3
+6,Sweden,The UN,4
 6,Italy,Environmental org.,4
 2,United Kingdom,The press,4
 2,Italy,The police,2
@@ -68,7 +68,7 @@ Wave,Country,Organization,Value
 3,Turkey,Universities,1
 3,New Zealand,The press,1
 3,New Zealand,The police,4
-3,Sweden,Universities,1
+3,Sweden,Universities,4
 4,United Kingdom,The press,4
 4,Costa Rica,The UN,3
 4,Peru,Universities,2
@@ -115,7 +115,7 @@ Wave,Country,Organization,Value
 3,Italy,The UN,3
 3,Mexico,The press,3
 3,Turkey,Environmental org.,1
-3,Sweden,The UN,3
+3,Sweden,The UN,4
 3,Turkey,Universities,2
 3,Russian Federation,Universities,2
 3,Nigeria,The police,1
@@ -150,7 +150,7 @@ Wave,Country,Organization,Value
 6,Australia,The press,2
 6,Austria,The armed force,2
 2,Chile,The press,2
-2,Sweden,The press,3
+2,Sweden,The press,4
 2,United States,Parliaments,3
 2,Spain,The police,4
 2,Netherlands,Women's org.,2
@@ -172,7 +172,7 @@ Wave,Country,Organization,Value
 4,United Kingdom,Universities,1
 4,Colombia,The police,2
 4,Peru,Environmental org.,4
-4,Sweden,Women's org.,1
+4,Sweden,Women's org.,4
 4,France,The armed force,1
 4,South Korea,Environmental org.,4
 4,Italy,Women's org.,2
@@ -207,7 +207,7 @@ Wave,Country,Organization,Value
 2,Mexico,The press,4
 2,France,Environmental org.,1
 2,India,The police,3
-2,Sweden,Universities,3
+2,Sweden,Universities,4
 2,Australia,Universities,4
 3,Pakistan,The press,4
 3,Brazil,The armed force,1
@@ -219,7 +219,7 @@ Wave,Country,Organization,Value
 3,India,The armed force,2
 3,Australia,Universities,3
 3,Australia,Women's org.,1
-4,Sweden,Women's org.,1
+4,Sweden,Women's org.,4
 4,Brazil,Universities,3
 4,United States,The armed force,2
 4,India,Environmental org.,2
@@ -264,7 +264,7 @@ Wave,Country,Organization,Value
 3,Costa Rica,Parliaments,1
 3,Belgium,Universities,4
 3,Canada,Women's org.,3
-3,Sweden,Universities,1
+3,Sweden,Universities,4
 3,Poland,The UN,1
 3,Colombia,The police,4
 3,Austria,Environmental org.,2
@@ -293,7 +293,7 @@ Wave,Country,Organization,Value
 6,Poland,Universities,1
 6,Pakistan,Universities,3
 6,Mexico,Women's org.,2
-6,Sweden,Parliaments,2
+6,Sweden,Parliaments,4
 6,Costa Rica,The police,4
 6,Austria,The armed force,2
 6,France,Universities,1
@@ -315,11 +315,11 @@ Wave,Country,Organization,Value
 3,Austria,The press,2
 3,Colombia,The police,3
 3,Turkey,The UN,3
-3,Sweden,The UN,1
+3,Sweden,The UN,4
 3,India,Women's org.,1
 3,Germany,Universities,3
 3,Ireland,The UN,2
-4,Sweden,Women's org.,3
+4,Sweden,Women's org.,4
 4,Sweden,The armed force,4
 4,Pakistan,The press,1
 4,Australia,The press,2
@@ -336,7 +336,7 @@ Wave,Country,Organization,Value
 5,New Zealand,Universities,4
 5,United States,Environmental org.,3
 5,Ireland,Environmental org.,3
-5,Sweden,Environmental org.,1
+5,Sweden,Environmental org.,4
 5,New Zealand,Parliaments,1
 5,Mexico,The police,1
 6,Germany,Universities,1
@@ -391,7 +391,7 @@ Wave,Country,Organization,Value
 5,Brazil,Environmental org.,2
 6,South Korea,Women's org.,2
 6,Belgium,Women's org.,3
-6,Sweden,The press,2
+6,Sweden,The press,4
 6,Colombia,The police,3
 6,Spain,Universities,4
 6,South Korea,Parliaments,4
@@ -414,14 +414,14 @@ Wave,Country,Organization,Value
 3,Spain,Parliaments,2
 3,Canada,Women's org.,4
 3,Mexico,Environmental org.,2
-3,Sweden,The armed force,1
+3,Sweden,The armed force,4
 3,Germany,Environmental org.,1
 3,Brazil,The police,4
 3,Belgium,The press,4
 3,Brazil,Environmental org.,3
 4,United States,The UN,3
 4,France,Parliaments,2
-4,Sweden,The police,3
+4,Sweden,The police,4
 4,South Korea,Women's org.,4
 4,Australia,The armed force,1
 4,Indonesia,The police,2
@@ -445,7 +445,7 @@ Wave,Country,Organization,Value
 6,Russian Federation,The police,1
 6,Netherlands,The armed force,4
 6,India,Universities,2
-6,Sweden,The armed force,1
+6,Sweden,The armed force,4
 6,Austria,The armed force,1
 6,Ireland,Women's org.,3
 6,Peru,The police,2
@@ -456,7 +456,7 @@ Wave,Country,Organization,Value
 2,Indonesia,The press,4
 2,Colombia,Environmental org.,3
 2,Mexico,The police,1
-2,Sweden,Parliaments,3
+2,Sweden,Parliaments,4
 2,Pakistan,The police,3
 2,Mexico,The police,1
 3,United States,Environmental org.,2
@@ -485,7 +485,7 @@ Wave,Country,Organization,Value
 5,Indonesia,Women's org.,4
 5,Turkey,Universities,2
 5,New Zealand,Universities,4
-5,Sweden,The UN,2
+5,Sweden,The UN,4
 5,New Zealand,The press,1
 5,Colombia,The UN,2
 5,Chile,Women's org.,4
@@ -536,7 +536,7 @@ Wave,Country,Organization,Value
 5,India,Environmental org.,3
 5,United Kingdom,Parliaments,4
 5,South Korea,The press,2
-5,Sweden,The armed force,3
+5,Sweden,The armed force,4
 5,Australia,Parliaments,4
 5,Canada,The armed force,2
 6,South Korea,The armed force,2
@@ -553,7 +553,7 @@ Wave,Country,Organization,Value
 2,Belgium,The armed force,2
 2,France,The press,1
 2,Australia,Parliaments,4
-2,Sweden,The press,1
+2,Sweden,The press,4
 2,Turkey,The press,1
 2,Nigeria,Women's org.,3
 2,Austria,The UN,4
@@ -636,7 +636,7 @@ Wave,Country,Organization,Value
 5,Belgium,The armed force,3
 5,Pakistan,Parliaments,1
 5,Ireland,The armed force,2
-5,Sweden,The armed force,2
+5,Sweden,The armed force,4
 5,Germany,Universities,2
 5,United Kingdom,The UN,4
 6,Peru,Environmental org.,3
@@ -648,7 +648,7 @@ Wave,Country,Organization,Value
 6,Indonesia,Parliaments,2
 6,Russian Federation,The UN,3
 6,France,Universities,1
-6,Sweden,Parliaments,2
+6,Sweden,Parliaments,4
 2,France,Universities,3
 2,Belgium,Women's org.,3
 2,Netherlands,The police,4
@@ -681,7 +681,7 @@ Wave,Country,Organization,Value
 4,Netherlands,The police,1
 5,Peru,Parliaments,2
 5,Belgium,Environmental org.,3
-5,Sweden,Women's org.,1
+5,Sweden,Women's org.,4
 5,United States,The UN,2
 5,New Zealand,The UN,3
 5,United States,The police,3
@@ -706,7 +706,7 @@ Wave,Country,Organization,Value
 2,New Zealand,Universities,1
 2,United States,Parliaments,2
 2,Ireland,Universities,2
-2,Sweden,The press,2
+2,Sweden,The press,4
 2,France,The police,1
 2,Canada,The press,2
 3,Mexico,Parliaments,2
@@ -734,7 +734,7 @@ Wave,Country,Organization,Value
 5,Mexico,The press,2
 5,Russian Federation,The press,3
 5,United States,The press,3
-5,Sweden,The UN,3
+5,Sweden,The UN,4
 5,Spain,Universities,2
 5,Netherlands,Parliaments,3
 5,Netherlands,The press,2
@@ -747,7 +747,7 @@ Wave,Country,Organization,Value
 6,South Korea,The UN,3
 6,Germany,Parliaments,1
 6,Sweden,The police,4
-6,Sweden,The press,1
+6,Sweden,The press,4
 6,Russian Federation,The UN,4
 2,Indonesia,Environmental org.,2
 2,Peru,Universities,2
@@ -763,7 +763,7 @@ Wave,Country,Organization,Value
 3,Italy,Women's org.,4
 3,Chile,The press,1
 3,Pakistan,The police,1
-3,Sweden,The press,3
+3,Sweden,The press,4
 3,United States,Environmental org.,3
 3,South Korea,Environmental org.,1
 3,Spain,The armed force,1
@@ -775,7 +775,7 @@ Wave,Country,Organization,Value
 4,Spain,Parliaments,4
 4,Spain,Parliaments,4
 4,Nigeria,Environmental org.,2
-4,Sweden,Universities,3
+4,Sweden,Universities,4
 4,Colombia,Women's org.,3
 4,United States,The armed force,4
 4,Brazil,Women's org.,4
@@ -798,7 +798,7 @@ Wave,Country,Organization,Value
 6,Peru,Universities,1
 6,France,Women's org.,3
 6,Chile,Universities,3
-6,Sweden,The police,2
+6,Sweden,The police,4
 2,United States,The UN,4
 2,France,Universities,2
 2,Germany,Environmental org.,3
@@ -904,7 +904,7 @@ Wave,Country,Organization,Value
 2,Ireland,Parliaments,1
 2,Costa Rica,The police,2
 2,Austria,Parliaments,2
-2,Sweden,Women's org.,2
+2,Sweden,Women's org.,4
 2,Mexico,The press,4
 2,Chile,The press,1
 2,Turkey,The armed force,4
@@ -980,14 +980,14 @@ Wave,Country,Organization,Value
 4,Netherlands,The police,3
 4,Mexico,Universities,1
 5,United States,Universities,4
-5,Sweden,Universities,3
+5,Sweden,Universities,4
 5,Chile,Parliaments,2
 5,Austria,Parliaments,2
 5,France,The armed force,3
 5,Canada,Women's org.,4
 5,Indonesia,Parliaments,3
 5,Colombia,The police,3
-5,Sweden,Women's org.,2
+5,Sweden,Women's org.,4
 5,Russian Federation,Women's org.,1
 6,Nigeria,The UN,2
 6,Pakistan,Women's org.,2
