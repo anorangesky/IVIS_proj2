@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 60, right: 30, bottom: 20, left:110},
-    width = 460 - margin.left - margin.right,
-    height = 350 - margin.top - margin.bottom;
+    width = 550 - margin.left - margin.right,
+    height = 400- margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#ridgeline")
@@ -30,9 +30,12 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
   var countries = d3.map(myData, function(d){return(d.Country)}).keys()
   var n = countries.length
 
-  //get the different org and count them
+  //get the 8 different orgs
   var orgs = d3.map(myData, function(d){return(d.Organization)}).keys()
-  var m = orgs.length
+
+  //get the 5 year waves
+  var yearWaves = d3.map(myData, function(d) {return (d.Wave)}).keys()
+  
 
   // Add X axis
   var x = d3.scaleLinear()
@@ -42,10 +45,10 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).scale(x).ticks(4));
 
-  // Create a Y scale for densities
+  // Create a Y scale for dencities
   var y = d3.scaleLinear()
-    .domain([0, 0.4])
-    .range([ height, 0]);
+    .domain([0, 0.38])
+    .range([height+120, 120]);
 
   // Create the Y axis for names
   var yName = d3.scaleBand()
@@ -56,14 +59,22 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
     .call(d3.axisLeft(yName));
 
   //Function that change year
-  function changeYear(){
-    var yearSelected = $("input[name='yearButton']:active");
-    console.log(yearSelected)
-    //TODO: make this code change the visible data:
-    //svg
-    //.d3.map(myData, function(d){return(d.Wave)}).keys() 
-  }
-
+  function changeYear(cy){
+    kde = kernelDensityEstimator(kernelEpanechnikov(4), x.ticks(40))
+    var density = kde(myData
+      .filter(function(d){return d.Wave == cy})
+      .map(function(d){return +d.Value})
+    )
+    //code for updating the new curve/chart:
+    curve.datum(density)
+    .transition()
+    .duration(100)
+    .attr("d", d3.line()
+    .curve(d3.curveBasis)
+    .x(function(d) {return x(d[0]);})
+    .y(function(d) {return y(d[1]);})
+    );
+}
   // Add organisations to select-button
   d3.select("#selectOrg")
     .selectAll('myOptions')
@@ -104,7 +115,7 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
       );
 
   //function to update the ridgeline chart when selection of org
-  function updateChart(selectedOrg){
+  function updateChartPlot(selectedOrg){
       //recompute density estimation
       kde = kernelDensityEstimator(kernelEpanechnikov(4), x.ticks(40))
       var density = kde(myData
@@ -114,7 +125,7 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
       //code for updating the new curve/chart:
         curve.datum(density)
         .transition()
-        .duration(1000)
+        .duration(100)
         .attr("d", d3.line()
         .curve(d3.curveBasis)
         .x(function(d) {return x(d[0]);})
@@ -125,13 +136,13 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
     //listen to the org-slider:
     d3.select("#selectOrg").on("change", function(d){
       selectedOrg = this.value
-      updateChart(selectedOrg)
+      updateChartPlot(selectedOrg)
     })
 
     //Listen to the Year-buttons
     d3.select("#yearButton").on("change", function(d){
-      changeYear = this.value
-      updateChart(changeYear)
+      cy = this.value
+      changeYear(cy)
     })
 
 });
