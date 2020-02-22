@@ -26,8 +26,8 @@ var svg = d3.select("#ridgeline")
 d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myData.csv", function(data) {
 
   // Get the different categories and count them
-  var countries = data["Country"]
-  var n = countries.length
+  var categ = data.columns
+  var n = categ.length
 
   // Add X axis
   var x = d3.scaleLinear()
@@ -44,7 +44,7 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
 
   // Create the Y axis for names
   var yName = d3.scaleBand()
-    .domain(countries)
+    .domain(categ)
     .range([0, height])
     .paddingInner(1)
   svg.append("g")
@@ -54,7 +54,7 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40)) // increase this 40 for more accurate density.
   var allDensity = []
   for (i = 0; i < n; i++) {
-      key = countries[i]
+      key = categ[i]
       density = kde( data.map(function(d){  return d[key]; }) )
       allDensity.push({key: key, density: density})
   }
