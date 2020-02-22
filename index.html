@@ -2,7 +2,10 @@
 <html>
 
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"
+    name="viewport" 
+    content="width=device-width, initial-scale=1"
+>
 <!-- Tab titel -->
 <title>Agnes project 2</title>
 <!-- Load Vue.js -->
@@ -10,39 +13,90 @@
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+<!-- external stylesheet -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- STYLE -->
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    </style>
 </head>
 
 <body>
-<!-- Create a div with just a rect in svg -->
-<div>
-  <svg width="960px" height="400px">
-      <rect
-        id="basic" x="10" y="200"
-        width="200" height="30" stroke="black"
-        fill="#69b3a2" stroke-width="1"/>
-  </svg>
+<!-- Navigation on the site -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+    <div style="padding:16px">
+        <h2>My Project Name</h2>
+        <p>What my project is vizualising</p>
+    </div>    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Work process</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="myLearnings.txt">Learnings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.txt">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Create page content with graph to the left -->
+<div id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <svg id="parallel"></svg>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <svg width="960px" height="400px">
+                    <rect
+                      id="basic" x="10" y="200"
+                      width="200" height="30" stroke="black"
+                      fill="#69b3a2" stroke-width="1"/>
+              </svg>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- testing vue elements -->
-<div id ="app">
-    <ul>
-        <li v-for="product in products">
-            <input type="number" v-model.number=.quantity>
-            {{product.quantity}}{{product.name}} 
-            <span v-if="product.quantity === 0">
-                - OUT OF STOCK
-            </span>
-            <button @click="product.quantity +=1"> 
-                Add One
-            </button>
-        </li>
-    </ul>
-    <h2>Total Inventory: {{totalProducts}}</h2>
-</div>
-<script src = "https://unpkn.com/vue"></script>
-
-<script src = "js/basic.js"></script>
-<script src = "js/testVue.js"></script>  
+<script src="js/basic.js"></script>
+<script src="js/parallel.js"></script>
 
 </body>
 </html>
