@@ -23,7 +23,7 @@ var svg = d3.select("#ridgeline")
     - "Organization" takes a random organization out of 8 possible 
     - "Value" is how much confidence in the organisation. "1": Great deal; "2": Quite a lot; "3": not very much; "4": not at all
 */
-d3.csv("myData.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myData.csv", function(data) {
 
   // Get the different categories and count them
   var countries = data["Country"]
