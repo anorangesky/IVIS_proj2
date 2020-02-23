@@ -44,13 +44,17 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
    .domain([0,100])
    .interpolator(d3.interpolateViridis);
 
+   // Levels of confidence
+   var confLevel = ["Great deal", "Quite a lot", "Not very much", "Not at all"]
+
   // Add X axis
   var x = d3.scaleLinear()
     .domain([1, 4])
     .range([ 0, width ]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).scale(x).ticks(4));
+    .call(d3.axisBottom(x).scale(x)
+      .tickFormat(function(d) {return confLevel[d-1]}));
 
   // Create a Y scale for dencities
   var y = d3.scaleLinear()
