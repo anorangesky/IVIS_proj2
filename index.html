@@ -49,6 +49,8 @@
       color: white;
     }
     </style> 
+    <!-- Viridis color palette-->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 </head>
 <sup style="color:red;">This may be the ugliest webpage I have ever developed. But it is also the first one I have ever developed. Bear with me.</sup>   
 
@@ -68,7 +70,7 @@
                 <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="myWorkProcess.txt">Work process</a>
+                <a class="nav-link" href="myWorkProcess.html">Work process</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="myLearnings.txt">Learnings</a>
@@ -87,14 +89,7 @@
             <div class="col-sm-12 col-md-6">
                  <rect id="ridgeline"/>
             </div>
-            <div class="col-sm-3 col-md-2">
-                <h6>Level of confidence:</h6>
-                <cite>1: Great deal
-                <br>2: Quite a lot
-                <br>3: Not very much
-                <br>4: Not at all</cite>
-            </div>
-            <div class="col-sm-3 col-md-2">
+            <div class="col-sm-3 col-md-3">
                 <h6>Year wave:</h6>
                 <div id="yearButton">
                     <input type="radio" name="yearButton" value="2"> 1990-1994<br>
@@ -103,8 +98,11 @@
                     <input type="radio" name="yearButton" value="5"> 2005-2009<br>
                     <input type="radio" name="yearButton" value="6"checked> 2010-2014<br>
                 </div>
+                <input type="range" name="mySlider" id=mySlider min="10" max="100" value="50">
+                <sup>year wave</sup>
+            
             </div>
-            <div class="col-sm-3 col-md-2">
+            <div class="col-sm-3 col-md-3">
                 <h6>Organization:</h6>
                 <select id="selectOrg"></select>
                 <svg id="selectOrg"></svg>
