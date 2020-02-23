@@ -64,6 +64,7 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
   //save all countries density in this array and init it with some values
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40)) // increase this 40 for more accurate density.
   var allDensity = [] 
+  var density
 
   for (i = 0; i < n; i++) {
     key = countries[i]
@@ -119,14 +120,11 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
       .duration(1000)
       .attr("fill", function(d){
         grp = d.key;
-        index = countries.indexOf(group)
+        index = countries.indexOf(grp)
         value = allDensity[index]
         return myColor(value)
       })
       .attr("opacity", 0.7)
-      .attr("stroke", "#000")
-      .attr("stroke-width", 1)
-      .attr("stroke-linejoin", "round")
       .attr("d",  d3.line()
           .curve(d3.curveBasis)
           .x(function(d) { return x(d[0]); })
@@ -153,8 +151,6 @@ function updateRidgeline(selectedYear, selectedOrg){
     .append("path")
     .attr("transform", function(d){return("translate(0," + (yName(d.key)-height) +")" )})
     .datum(function(d){return(d.density)})
-    .transition()
-    .duration(1000)
     .attr("fill", function(d){
       grp = d.key;
       index = countries.indexOf(group)
@@ -176,20 +172,29 @@ function updateRidgeline(selectedYear, selectedOrg){
     //listen to the org-slider:
     d3.select("#selectOrg").on("change", function(d){
       selectedOrg = this.value
-      selectedYear = d3.select("#mySlider").value;
+      console.log("selectedOrg: " + selectedOrg) //correct
+
+      var selectedYear = d3.select("#mySlider").node().value;
+      //selectedYear = "2"
+      console.log("selectedYear: " + selectedYear)
+
       updateRidgeline(selectedYear, selectedOrg)    })
 
     //listen to the year-slider
     d3.select("#mySlider").on("change", function(d){
       selectedYear = this.value
-      selectedOrg = d3.select("#selectOrg").value; 
+      console.log("selectedYear: " + selectedYear)
+      var selectedOrg = d3.select("#selectOrg").node().value; //correct
+      console.log("selectedOrg: " + selectedOrg)
       updateRidgeline(selectedYear, selectedOrg)
     })
 
     //Listen to the Year-buttons (same functionality as the slider)
     d3.select("#yearButton").on("change", function(d){
-      cy = this.value
-      selectedOrg = d3.select("#selectOrg").value; 
+      selectedYear = $("input[name='yearButton']:active")
+      console.log("selectedYear: " + selectedYear)
+      var selectedOrg = d3.select("#selectOrg").node().value;
+      console.log("selectedOrg: " + selectedOrg)
       updateRidgeline(selectedYear, selectedOrg)
     })
 });
