@@ -35,7 +35,14 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
 
   //get the 5 year waves
   var yearWaves = d3.map(myData, function(d) {return (d.Wave)}).keys()
+
+  //save all countries density in this array and init it with some values
+  var allDensity = []  
   
+  // Create a color scale for allDensitiies.
+   var myColor = d3.scaleSequential()
+   .domain([0,100])
+   .interpolator(d3.interpolateViridis);
 
   // Add X axis
   var x = d3.scaleLinear()
@@ -58,23 +65,6 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
   svg.append("g")
     .call(d3.axisLeft(yName));
 
-  //Function that change year
-  function changeYear(cy){
-    kde = kernelDensityEstimator(kernelEpanechnikov(4), x.ticks(40))
-    var density = kde(myData
-      .filter(function(d){return d.Wave == cy})
-      .map(function(d){return +d.Value})
-    )
-    //code for updating the new curve/chart:
-    curve.datum(density)
-    .transition()
-    .duration(100)
-    .attr("d", d3.line()
-    .curve(d3.curveBasis)
-    .x(function(d) {return x(d[0]);})
-    .y(function(d) {return y(d[1]);})
-    );
-}
   // Add organisations to select-button
   d3.select("#selectOrg")
     .selectAll('myOptions')
@@ -84,18 +74,23 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
     .text(function(d){return d;}) //show text in menu
     .attr("value", function(d){return d;}) //value returned by the button
 
+/*
   var kde = kernelDensityEstimator(kernelEpanechnikov(4), x.ticks(40)) // increase this 40 for more accurate density.
-  // Compute kernel density estimation for the first organization called "Environmental org.":
+  // Compute kernel density estimation for the first organization called "Environmental org. and the year-wave 6 (aka (10-14)":
   var allDensity = []
   for (i = 0; i < n; i++) {
       key = countries[i]
+      updateRidgeline("6", "Environmental org.")
+      
       density = kde( myData
-        .filter(function(d){return d.Organization == "Environmental org."})
-        .map(function(d){  return d[key]; }) ) //TODO: should this be +d.value? right?
+        .filter(function(d){return (d.Organization == )})
+        .filter(function(d))
+        .map(function(d){  return d[key]})
+        .map(function(d){return +d.Value}) 
+        ) 
       allDensity.push({key: key, density: density})
   }
-
-
+*/
   // Add areas
   var curve = svg
     .selectAll("areas")
@@ -103,48 +98,81 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
     .enter()
     .append("path")
       .attr("transform", function(d){return("translate(0," + (yName(d.key)-height) +")" )})
+      .attr("fill", function(d){
+        grp = d.key;
+        index = countries.indexOf(group)
+        value = allDensity[index]
+        return myColor(value)
+      })
       .datum(function(d){return(d.density)})
-      .attr("fill", "#69b3a2")
+      .attr("opacity", 0.7)
       .attr("stroke", "#000")
-      .attr("stroke-width", 1)
+      .attr("stroke-width", 0.1)
       .attr("stroke-linejoin", "round")
       .attr("d",  d3.line()
           .curve(d3.curveBasis)
           .x(function(d) { return x(d[0]); })
           .y(function(d) { return y(d[1]); })
-      );
-
-  //function to update the ridgeline chart when selection of org
-  function updateChartPlot(selectedOrg){
-      //recompute density estimation
-      kde = kernelDensityEstimator(kernelEpanechnikov(4), x.ticks(40))
-      var density = kde(myData
-        .filter(function(d){return d.Organization == selectedOrg})
-        .map(function(d){return +d.Value;}) // TODO: denna matchar inte den tidiare, pga den hade array
       )
-      //code for updating the new curve/chart:
-        curve.datum(density)
+    
+
+
+//function to update the ridgeline chart when changing year or org 
+function updateRidgeline(selectedYear, selectedOrg){
+  //recompute density
+  kde = kernelDensityEstimator(kernelEpanechnikov(4), x.ticks(40))
+  //update density for each country 
+  for(i = 0; i < n; i++){
+    key = countries[i]
+    density = kde(myData
+      .filter(function(d){return d.Wave == selectedYear})
+      .filter(function(d){return d.Organization == selectedOrg})
+      .map(function(d){return +d.Value;})
+      .map(function(d){return d[key]})
+    )
+    allDensity.push({key: key, density: density})
+  }
+  //update the chart
+  curve
+        .selectAll("areas")
+        .data(allDensity)
+        .enter()
+        .append("path")
+        .attr("transform", function(d){return("translate(0," + (yName(d.key)-height) +")" )})
+        .datum(function(d){return(d.density)})
         .transition()
-        .duration(100)
+        .duration(1000)
+        .attr("fill", "#69b3a2")
+        .attr("stroke", "#000")
+        .attr("stroke-width", 1)
+        .attr("stroke-linejoin", "round")
         .attr("d", d3.line()
-        .curve(d3.curveBasis)
-        .x(function(d) {return x(d[0]);})
-        .y(function(d) {return y(d[1]);})
-        );
-    }
+          .curve(d3.curveBasis)
+            .x(function(d){return x(d[0]);})
+            .y(function(d){return y(d[1]);})
+        )
+    ;
+  }
 
     //listen to the org-slider:
     d3.select("#selectOrg").on("change", function(d){
       selectedOrg = this.value
-      updateChartPlot(selectedOrg)
+      selectedYear = d3.select("#mySlider").value;
+      updateRidgeline(selectedYear, selectedOrg)    })
+
+    //listen to the year-slider
+    d3.select("#mySlider").on("change", function(d){
+      selectedYear = this.value
+      selectedOrg = d3.select("#selectOrg").value; 
+      updateRidgeline(selectedYear, selectedOrg)
     })
 
-    //Listen to the Year-buttons
+    //Listen to the Year-buttons (same functionality as the slider)
     d3.select("#yearButton").on("change", function(d){
       cy = this.value
-      changeYear(cy)
+      selectedOrg = d3.select("#selectOrg").value; 
+      updateRidgeline(selectedYear, selectedOrg)
     })
-
 });
 
 // This is what I need to compute kernel density estimation
