@@ -69,10 +69,10 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
   for (i = 0; i < n; i++) {
     key = countries[i]
     density = kde( myData
-      //.filter(function(d){return d.Organization == "Environmental org."})
-      //.filter(function(d){return d.Wave = "2"})
+      .filter(function(d){return d.Organization == "Environmental org."})
+      .filter(function(d){return d.Wave = "2"})
       .map(function(d){return d[key]})
-      //.map(function(d){return +d.Value}) 
+      .map(function(d){return +d.Value}) 
       ) 
     allDensity.push({key: key, density: density})
   } 
@@ -139,7 +139,7 @@ function updateRidgeline(selectedYear, selectedOrg){
     density = kde(myData
       .filter(function(d){return d.Wave == selectedYear})
       .filter(function(d){return d.Organization == selectedOrg})
-      .map(function(d){return +d.Value;})
+      .map(function(d){return d.Value;})
       .map(function(d){return d[key]})
     )
     allDensity.push({key: key, density: density})
