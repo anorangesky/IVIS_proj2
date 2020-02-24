@@ -70,7 +70,7 @@ d3.csv("https://raw.githubusercontent.com/anorangesky/IVIS_proj2/master/js/myDat
     key = countries[i]
     density = kde( myData
       .filter(function(d){return d.Organization == "Environmental org."})
-      .filter(function(d){return d.Wave = "2"})
+      .filter(function(d){return d.Wave = "6"})
       .map(function(d){return d[key]})
       .map(function(d){return +d.Value}) 
       ) 
